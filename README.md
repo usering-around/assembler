@@ -8,4 +8,6 @@ To build it as optimized or in debug mode, clean any build artifacts and then ru
 `make opt` <br>
 for optimized, or<br> 
 `make dbg` <br>
-for debug.
+for debug. <br>
+
+Note: it was required to use ansi C and to check every allocation, hence almost every function returns a boolean indicating whether or not malloc returned NULL.
